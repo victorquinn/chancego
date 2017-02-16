@@ -5,6 +5,10 @@ import (
 	"strings"
 )
 
+// Char will return a random character as a string. Note this is by default
+// using a simple English alphabet, i18n being punted on at this time. It also
+// intentionally returns a string rather than a rune for ease of use in the
+// primare use case this is intended to solve, namely rapid testing
 func Char() string {
 	return CharFromPool("abcdefghijklmnopqrstuvwxyz")
 }

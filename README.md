@@ -1,6 +1,8 @@
 # Chance Go
 
-This is a quasi-port of my other library ChanceJS to Go.
+[![GoDoc](https://godoc.org/github.com/victorquinn/chancego?status.svg)](https://godoc.org/github.com/victorquinn/chancego)
+
+This is a quasi-port of my other library [ChanceJS](http://chancejs.com) to Go.
 
 I say quasi-port because as of right now it doesn't adhere to the same principles/ideals.
 
